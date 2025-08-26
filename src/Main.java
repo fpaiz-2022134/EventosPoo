@@ -2,6 +2,13 @@ import javax.swing.SwingUtilities;
 
 import controller.ControladorReservas;
 
+/**
+  Developer: Franco Paiz
+  Project on GitHub:
+  
+  https://github.com/fpaiz-2022134/EventosPoo.git
+ **/
+
 public class Main {
     /**
      * Método principal que inicia la app
