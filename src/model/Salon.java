@@ -31,7 +31,6 @@ public class Salon {
     public boolean isDisponible() { return disponible; }
     public void setDisponible(boolean disponible) { this.disponible = disponible; }
 
-    // Métodos de negocio
     public boolean esDisponible() {
         return disponible;
     }
@@ -44,7 +43,7 @@ public class Salon {
         if (tipoSalon.equals("Grande")) {
             return tipoEvento.equals("VIP");
         }
-        return true; // Pequeños y medianos aceptan cualquier tipo
+        return true; 
     }
 
     @Override

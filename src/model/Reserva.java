@@ -33,7 +33,6 @@ public class Reserva {
 
     // Métodos de negocio
     public void calcularCostoTotal() {
-        // Asumimos 4 horas por defecto para el evento
         costoTotal = salon.getCostoPorHora() * 4;
     }
 
